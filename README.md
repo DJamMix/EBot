@@ -25,4 +25,4 @@ EBot - это элегантный Laravel-пакет для работы с Tel
 ### Установка
 
 ```bash
-composer require your-vendor/ebot-telegram
+I'm expecting
