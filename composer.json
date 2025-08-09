@@ -3,6 +3,8 @@
     "description": "Laravel package for Telegram Bot API integration",
     "type": "library",
     "license": "MIT",
+    "version": "0.0.3",
+    "keywords": ["telegram", "bot", "laravel", "api", "integration"],
     "authors": [
         {
             "name": "DJamMix",
@@ -12,6 +14,7 @@
     "require": {
         "php": "^8.0",
         "illuminate/support": "^9.0|^10.0",
+        "illuminate/http": "^9.0|^10.0",
         "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
@@ -25,6 +28,10 @@
                 "djammix\\EBot\\EBotServiceProvider"
             ]
         }
+    },
+    "suggest": {
+        "ext-curl": "For better HTTP request handling",
+        "laravel/framework": "For full Laravel integration"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
